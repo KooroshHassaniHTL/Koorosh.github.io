@@ -1,97 +1,107 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: "Koorosh Hassani"
+date: 2025-10-07
 type: landing
 
 design:
-  # Default section spacing
-  spacing: "6rem"
+  spacing: "4rem"
 
 sections:
   - block: hero
     content:
-      title: Koorosh
-      text: CSI Student at HTBLA Leonding
+      title: "Koorosh Hassani"
+      text: "Computer Science Student at HTBLA Leonding"
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
-        icon: rocket-launch
+        text: "Download CV"
+        url: "/uploads/Koorosh-Hassani-CV.pdf"
+        icon: download
       secondary_action:
-        text: Read the docs
-        url: /docs/
+        text: "Contact Me"
+        url: "mailto:koorosh@example.com"
       announcement:
-        text: "Announcing the release of version 2."
+        text: "Open to part-time tech or retail roles."
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "See my projects"
+          url: "/projects/"
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
-      css_class: ""
       background:
-        color: ""
         image:
-          # Add your image background to `assets/media/`.
-          filename: ""
+          filename: "background.jpg"
           filters:
-            brightness: 0.5
-  - block: stats
+            brightness: 0.7
+      css_class: "text-center min-h-screen flex flex-col justify-center"
+
+  - block: about
     content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
+      title: "About Me"
+      text: |
+        I’m a motivated Computer Science student at HTBLA Leonding with hands-on experience in software development, hardware fundamentals, and customer-facing roles.  
+        I’m currently looking for part-time opportunities that combine technology and teamwork while continuing to grow my programming and problem-solving skills.
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-800"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+      css_class: "bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl"
+
   - block: features
-    id: features
+    id: skills
     content:
-      title: Features
-      text: Collaborate, publish, and maintain technical knowledge with an all-in-one documentation site. Used by 100,000+ startups, enterprises, and researchers.
+      title: "Technical Skills"
+      text: |
+        My main areas of focus in computer science and software development.
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+        - name: Programming
           icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: C, C#, Java, HTML, CSS, and JavaScript
+        - name: Tools
+          icon: wrench
+          description: Git, Visual Studio, Unity, Hugo, and Linux
+        - name: Concepts
+          icon: cpu
+          description: Object-Oriented Programming, Networks, Algorithms
+        - name: Languages
+          icon: globe-alt
+          description: German (B2), English (Fluent), Persian (Native)
+
+  - block: experience
+    content:
+      title: "Experience"
+      items:
+        - title: "Fundraiser & Customer Contact"
+          organization: "Local NGO"
+          date_start: "2021"
+          date_end: "2022"
+          description: |
+            Worked in fundraising and public communication, gaining confidence in direct customer interaction and persuasive communication.
+        - title: "Retail Assistant (Family Shop)"
+          organization: "Independent Store"
+          date_start: "2020"
+          date_end: "Present (Summers)"
+          description: |
+            Assisted with cashiering, stock organization, and customer service during summer periods.
+
+  - block: education
+    content:
+      title: "Education"
+      items:
+        - title: "HTBLA Leonding"
+          subtitle: "High School of Informatics"
+          date_start: "2022"
+          date_end: "Present"
+          description: |
+            Specialization in computer science — focus on programming, networks, and software development.
+        - title: "General Secondary School"
+          subtitle: "Linz"
+          date_start: "2018"
+          date_end: "2022"
+
   - block: cta-card
     content:
-      title: "Start Writing with the #1 Effortless Documentation Platform"
-      text: Hugo Blox Docs Theme brings all your technical knowledge together in a single, centralized knowledge base. Easily search and edit it with the tools you use every day!
+      title: "Let’s Connect"
+      text: |
+        Interested in working together or learning more about my projects?  
+        I’m always open to new opportunities in IT, development, and tech support.
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        text: "Contact Me"
+        url: "mailto:koorosh@example.com"
     design:
       card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+        css_class: "bg-primary-700 text-white p-6 rounded-2xl shadow-lg"
 ---
